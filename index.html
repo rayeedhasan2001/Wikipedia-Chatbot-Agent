@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Q&A System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@tailwindcss/forms@0.5.3/dist/forms.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+            <div class="p-8 w-full">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mb-1">AI Q&A System</div>
+                <h1 class="block mt-1 text-lg leading-tight font-medium text-black">Ask me anything</h1>
+                <form id="questionForm" class="mt-6">
+                    <label for="questionInput" class="block text-sm font-medium text-gray-700">Your Question</label>
+                    <input type="text" id="questionInput" name="question" required
+                           class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <button type="submit"
+                            class="mt-4 w-full bg-indigo-600 text-white p-2 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                        Ask
+                    </button>
+                </form>
+                <div id="loadingIndicator" class="mt-4 text-center hidden">
+                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+                    <p class="mt-2 text-gray-600">Thinking...</p>
+                </div>
+                <div id="answer" class="mt-6 hidden">
+                    <h2 class="text-lg font-semibold text-gray-900">Answer:</h2>
+                    <p id="answerText" class="mt-2 text-gray-600"></p>
+                    <h3 class="mt-4 text-lg font-semibold text-gray-900">Sources:</h3>
+                    <ul id="sourcesList" class="mt-2 list-disc list-inside text-gray-600"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
