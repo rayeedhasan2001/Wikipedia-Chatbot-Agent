@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+langchain
+langchain-groq
+langchain-community
+openai
+faiss-cpu
+wikipedia-api
+python-dotenv
+httpx
+tiktoken
+cassio
+langchain-huggingface
+tf-keras
