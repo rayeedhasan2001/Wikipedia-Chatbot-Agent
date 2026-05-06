@@ -42,7 +42,7 @@ project_root/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/1666sApple/ChatBot-Wiki-Agent-Navigator.git
+   git clone https://github.com/rayeedhasan2001/Wikipedia-Chatbot-Agent.git
    cd ChatBot-Wiki-Agent-Navigator
    ```
 
