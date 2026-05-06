@@ -121,7 +121,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Project Link: [https://github.com/1666sApple/ChatBot-Wiki-Agent-Navigator](https://github.com/1666sApple/ChatBot-Wiki-Agent-Navigator)
+Project Link: [https://github.com/rayeedhasan2001/Wikipedia-Chatbot-Agent.git](https://github.com/rayeedhasan2001/Wikipedia-Chatbot-Agent.git)
 
 If you have any questions, feel free to open an issue or contact the maintainers directly.
 
